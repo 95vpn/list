@@ -30,6 +30,7 @@ namespace list
             //lista.Clear();
             lista.Reverse();
             Console.WriteLine(lista.Contains(329));
+            Console.WriteLine(lista.Exists(e => e.Equals("Joel")));
             //Console.WriteLine(lista.LastIndexOf("Alex", 3));
             //lista.LastIndexOf("Alex")
             //Console.WriteLine(lista.IndexOf(32,0,4));
